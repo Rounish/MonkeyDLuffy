@@ -74,9 +74,9 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hello there {}, my name is {}! 
-I am an Anime themed group management bot.
+I am a pirate Monkey D. Luffy a group management bot
 
-Join my 👒 Straw hats pirate crew 👒 by adding me to your group.
+Join my crew by adding me to your group.
 
 ❓ WHAT ARE THE COMMANDS? ❓
 Press /help to see all the commands and how they work!
@@ -87,7 +87,7 @@ HELP_STRINGS = """
 Hey there! My name is *{}*[.](https://telegra.ph/file/5d1b138d269cb22820b99.mp4) 
 I am A Group Management Bot which helps you to maintain your group.
 
-If I am Not Working Then You Can Report Me At @OnePieceSupport
+If I am Not Working Then You Can Report Me At @AnimeHatochu
 
 *Main* commands available:
  • /help: PM's you this message.
@@ -104,9 +104,9 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/Monkey-d-luffy-04-04-3"
+SAITAMA_IMG = "https://telegra.ph/MONKEY-D-LUFFY-04-28-2" 
 
-DONATE_STRING = """No need to waste your money here"""
+DONATE_STRING = """No need to waste money here"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -219,7 +219,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="➕ Add Luffy to your group",
+                                text="➕ Add Me to your group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -228,7 +228,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="⚓ Support Group",
-                                url=f"https://t.me/OnePieceSupport",
+                                url=f"https://t.me/AnimeHatochu",
                             ),
                             InlineKeyboardButton(
                                 text="☠ Updates Channel",
